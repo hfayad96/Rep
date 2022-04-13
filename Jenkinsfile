@@ -5,6 +5,8 @@ pipeline {
             steps {
                 sh 'python --version'
                 sh
+                conflict test 
+                conf
             }
         }
     }
